@@ -9,8 +9,10 @@ public class ReverseLL {
         public LLNode(int val) {
             this.val = val;
         }
+
     }
 
+    
     public LLNode reverseLL(LLNode head) {
         LLNode prev = null;
         while (head != null) {
