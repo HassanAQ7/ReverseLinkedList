@@ -28,4 +28,13 @@ public class ReverseLLTests {
         assertEquals(null, reversedHead.next.next.next);
     }
 
+    @Test
+    public void testReverseEmptyList() {
+        ReverseLL.LLNode head = null;
+
+        ReverseLL.LLNode reversedHead = reverseLL.reverseLL(head);
+
+        assertEquals(null, reversedHead);
+    }
+
 }
